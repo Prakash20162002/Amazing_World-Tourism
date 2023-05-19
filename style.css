@@ -78,6 +78,16 @@ ul {
     z-index: 1;
 }
 
+.logo {
+    background-size: contain;
+    position: absolute;
+    height: 4em;
+    width: 16em;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+}
+
 #search {
     position: absolute;
     height: 14px;
@@ -135,9 +145,11 @@ ul {
     margin-top: 11px;
     outline: 2px solid black;
     border-radius: 5px;
+    margin-bottom: 0px;
 
 
 }
+
 
 .im1 {
     height: 84%;
@@ -147,22 +159,61 @@ ul {
     margin-top: 11px;
     margin-left: 9px;
     padding-right: 23%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
+
+
+.midlle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.im1:hover.image1 {
+    opacity: 0.3;
+}
+
+.im1:hover.midlle{
+    opacity: 1;
+}
+
+.text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+
+
+
+
+
+
+
+
 
 .topic {
     font-size: 26px;
-    margin-top: 25%;
+    margin-top: 21%;
     margin-left: 43%;
     position: absolute;
     font-weight: 300;
-    color: darkcyan;
-   stroke: 5px solid black;
+    color: whitesmoke;
+    stroke: 5px solid black;
 
 }
 
 .topic2 {
     font-size: 50px;
-    margin-top: 28%;
+    margin-top: 23%;
     margin-left: 26%;
     position: absolute;
     font-weight: 300;
@@ -173,9 +224,120 @@ ul {
 
 .topic3 {
     font-size: 16px;
-    margin-top: 32%;
-    margin-left: 38em;
+    margin-top: 28%;
+    margin-left: 37em;
     position: absolute;
     font-weight: 700;
     color: white;
+}
+
+.checkout {
+    width: 69em;
+    height: 4%;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-top: -20em;
+    align-items: center;
+    padding: 5px 2px;
+    margin-left: 3em;
+
+}
+
+.check {
+    border: 1px solid black;
+    border-radius: 4px;
+    position: relative;
+    margin-left: 9em;
+    transition-duration: 0.2s;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px 2px;
+}
+
+.check:hover {
+    background-color: #A9FFF7;
+    /* Green */
+    color: black;
+}
+
+.checkone {
+    border: 1px solid black;
+    border-radius: 4px;
+    position: relative;
+    margin-left: 26em;
+    transition-duration: 0.2s;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px 2px;
+}
+
+.checkone:hover {
+    background-color: #A9FFF7;
+    /* Green */
+    color: black;
+}
+
+.checktwo {
+    border: 1px solid black;
+    border-radius: 4px;
+    position: relative;
+    margin-left: 25em;
+    transition-duration: 0.2s;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px 2px;
+}
+
+.checktwo:hover {
+    background-color: #A9FFF7;
+    /* Green */
+    color: black;
+}
+
+.checkdel {
+    width: 75em;
+    margin: 7px;
+    height: 98px;
+    /* border: 1px solid black; */
+    position: absolute;
+    display: flex;
+}
+
+.darjiling {
+    width: 22em;
+    margin-top: 9px;
+    height: 6em;
+    margin-left: 28px;
+    /* border: 1px solid black; */
+    position: absolute;
+    background-color: rgb(13, 40, 51);
+    color: white;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.ladakh {
+    width: 22em;
+    margin-top: 9px;
+    height: 6em;
+    margin-left: 33%;
+    /* border: 1px solid black; */
+    position: absolute;
+    background-color: rgb(13, 40, 51);
+    color: white;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.kedarnath {
+    width: 21em;
+    margin-top: 9px;
+    height: 6em;
+    margin-left: 63%;
+    /* border: 1px solid black; */
+    position: absolute;
+    background-color: rgb(13, 40, 51);
+    color: white;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
