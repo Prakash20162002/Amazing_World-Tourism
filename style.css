@@ -60,6 +60,7 @@ ul {
     box-shadow: -2px 5px 30px -6px;
     border-radius: 10px;
     overflow-y: scroll;
+    background-color: #B3DEC1;
 }
 
 #contaner::-webkit-scrollbar {
@@ -321,6 +322,7 @@ ul {
     border-radius: 5px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+
 }
 
 .ladakh {
