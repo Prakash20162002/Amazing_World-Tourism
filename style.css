@@ -493,7 +493,7 @@ ul {
     margin-left: 1em;
 }
 
-@media screen and (max-width:590px) {
+@media screen and (max-width:480px) {
     #contaner {
         position: absolute;
         height: 55em;
@@ -506,6 +506,7 @@ ul {
         border-radius: 10px;
         overflow-y: scroll;
         background-color: #B3DEC1;
+    
     }
 
     #contaner::-webkit-scrollbar {
@@ -596,6 +597,7 @@ ul {
         font-weight: 300;
         color: whitesmoke;
         stroke: 5px solid black;
+        z-index: 1;
 
     }
 
