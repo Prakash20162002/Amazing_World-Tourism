@@ -29,7 +29,7 @@ ul {
     margin-left: 28em;
     margin-top: 3em;
 }
-
+/* 
 #topic1 {
     position: absolute;
     font-size: 24px;
@@ -37,7 +37,7 @@ ul {
     color: orange;
     font-weight: 500;
     /* display: flex; */
-    margin-left: 88px;
+    /* margin-left: 88px;
     margin-top: 55px;
     z-index: 0;
 
@@ -47,7 +47,7 @@ ul {
     text-decoration: underline;
     color: orange;
     transition: 0.5s;
-}
+} */ 
 
 #contaner {
     position: relative;
@@ -129,7 +129,7 @@ ul {
 }
 
 #im {
-    height: 100%;
+    height: 64%;
     width: 76em;
     /* border: 2px solid black; */
     margin-left: 49px;
@@ -144,7 +144,7 @@ ul {
     /* display: grid; */
     gap: -91em;
     margin-top: 11px;
-    outline: 2px solid black;
+    /* outline: 2px solid black; */
     border-radius: 5px;
     margin-bottom: 0px;
 
@@ -235,7 +235,7 @@ ul {
 .topic3 {
     font-size: 16px;
     margin-top: 28%;
-    margin-left: 37em;
+    margin-left: 38em;
     position: absolute;
     font-weight: 700;
     color: white;
@@ -357,11 +357,11 @@ ul {
     height: 14em;
     width: 75em;
     margin-left: 4em;
-    margin-top: -14em;
-    /* border: 1px solid black; */
+    margin-top: 2em;
+    border: 1px solid black;
     background-color: azure;
     border-radius: 5px;
-    position: absolute;
+    position: relative;
     box-shadow: -2px 8px 11px -6px;
 }
 
@@ -490,4 +490,123 @@ ul {
     position: absolute;
     margin-top: 14px;
     margin-left: 1em;
+}
+
+@media screen and (max-width:414px) {
+    #contaner {
+        position: absolute;
+        height: 37em;
+        width: 81%;
+        border: 1px solid gray;
+        margin-left: 27px;
+        margin-bottom: 18px;
+        position: absolute;
+        box-shadow: -2px 5px 30px -6px;
+        border-radius: 10px;
+        overflow-y: scroll;
+        background-color: #B3DEC1;
+    }
+
+    .searchbar {
+        margin-top: 0px;
+        height: 30px;
+        width: 81%;
+        border: 1px solid transparent;
+        background-color: gray;
+        position: fixed;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        z-index: 1;
+    }
+        #search {
+            position: absolute;
+            height: 14px;
+            width: 17em;
+            background-color: antiquewhite;
+            border-radius: 10px;
+            margin-left: 2em;
+            padding: 5px 13px;
+            margin-top: 1px;
+    
+        }
+.search {
+    width: 22px;
+    height: 32px;
+    position: absolute;
+    display: flex;
+    /* float: right; */
+    /* margin-right: 24em; */
+    z-index: 0;
+    margin-left: 16em;
+    padding: 1px;
+
+}
+.logo {
+    background-size: contain;
+    position: absolute;
+    height: 2em;
+    width: 9em;
+    margin-top: 30px;
+    margin-left: 8px;
+    background-repeat: no-repeat;
+}
+ul {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-top: 7%;
+    font-size: 16px;
+    /* padding: 0px; */
+    margin-left: -23px;
+    margin-top: 5em;
+
+}
+li,
+a {
+    /* position: relative; */
+    padding: 3px;
+    margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+
+}
+.topic {
+    font-size: 20px;
+    margin-top: 59%;
+    margin-left: 31%;
+    position: absolute;
+    font-weight: 300;
+    color: whitesmoke;
+    stroke: 5px solid black;
+
+}
+
+.topic2 {
+    font-size: 23px;
+    margin-top: 67%;
+    margin-left: 11%;
+    position: absolute;
+    font-weight: 300;
+    color: coral;
+}
+
+.topic3 {
+    font-size: 15px;
+    margin-top: 76%;
+    margin-left: 118px;
+    position: absolute;
+    font-weight: 700;
+    color: white;
+}
+#image {
+    height: 18em;
+    width: 18em;
+    background-size: cover;
+    margin-left: 21px;
+    margin-top: 8em;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
 }
