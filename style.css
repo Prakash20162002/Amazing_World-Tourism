@@ -625,9 +625,9 @@ ul {
 
     #image {
         height: 18em;
-        width: 18em;
+        width: 21em;
         background-size: cover;
-        margin-left: 57px;
+        margin-left: 37px;
         margin-top: 8em;
         border: 3px solid black;
         border-radius: 8px;
@@ -636,7 +636,7 @@ ul {
     #im {
         height: 112%;
         width: 24em;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         margin-left: 2px;
         display: flex;
         flex-direction: column;
