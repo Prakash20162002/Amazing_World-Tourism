@@ -493,7 +493,7 @@ ul {
     margin-left: 1em;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:430px) {
     #contaner {
         position: absolute;
         height: 55em;
@@ -516,7 +516,7 @@ ul {
     .searchbar {
         margin-top: 0px;
         height: 30px;
-        width: 393px;
+        width: 402px;
         border: 1px solid transparent;
         background-color: gray;
         position: fixed;
