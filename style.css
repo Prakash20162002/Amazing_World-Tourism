@@ -493,7 +493,7 @@ ul {
     margin-left: 1em;
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:450px) {
     #contaner {
         position: absolute;
         height: 55em;
@@ -535,6 +535,10 @@ ul {
         padding: 5px 13px;
         margin-top: 1px;
 
+    }
+    #search::after:focus
+    {
+        outline: none;
     }
 
     .search {
